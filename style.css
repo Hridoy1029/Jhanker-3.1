@@ -1,0 +1,119 @@
+.container {
+    margin-bottom: 100px;
+}
+
+header {
+    background: url('images/bg-1.png'), url('images/bg-2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, left bottom;
+    /* min-height: 95vh; */
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+    font-size: 20px;
+}
+
+.buyButton {
+    border: none;
+    border-radius: 9px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.bannerItem {
+    padding: 0% 7%;
+}
+
+.bannerItem p {
+    font-size: 20px;
+}
+
+.secDes {
+    margin: 5px 0px;
+}
+
+.orangeText {
+    color: #FF9D00;
+    padding-top: 10px;
+}
+
+.smartPhone img {
+    width: 250px;
+    margin: 20px auto;
+}
+
+.card {
+    padding: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+    padding: 10px;
+}
+
+.line::after {
+    content: "";
+    display: block;
+    height: 8px;
+    width: 11%;
+    margin: 10px auto;
+    background: linear-gradient(-169deg, #FF9C35 0%, #FFD019 100%);
+    border-radius: 16px;
+}
+
+.catCard1 {
+    padding: 40px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 0px 6px 32px rgba(109, 109, 109, 0.15);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.catCard2 {
+    padding: 40px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 6px 32px rgba(109, 109, 109, 0.15);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.catCard3 {
+    padding: 40px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 6px 32px rgba(109, 109, 109, 0.15);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.catCard1 h3,
+.catCard2 h3,
+.catCard3 h3 {
+    margin: 15px;
+}
+
+@media only screen and (max-width:500px) {
+    .last img {
+        max-width: 100%;
+    }
+}
